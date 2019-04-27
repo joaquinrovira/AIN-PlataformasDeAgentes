@@ -1,0 +1,224 @@
+Esperando a los otros agentes...
+Recibida notificacion de: random
+Recibida notificacion de: ojoporojo
+Recibida notificacion de: cooperativo
+Recibida notificacion de: nocooperativo
+Todos los agentes a la espera, comenzando el torneo
+
+	|| random vs ojoporojo ||
+	Ronda 0:
+		random -> 0
+		ojoporojo -> 1
+	Ronda 1:
+		random -> 1
+		ojoporojo -> 0
+	Ronda 2:
+		random -> 0
+		ojoporojo -> 1
+	Ronda 3:
+		random -> 0
+		ojoporojo -> 0
+	Ronda 4:
+		random -> 1
+		ojoporojo -> 0
+	Ronda 5:
+		random -> 1
+		ojoporojo -> 1
+	Ronda 6:
+		random -> 1
+		ojoporojo -> 1
+	Ronda 7:
+		random -> 0
+		ojoporojo -> 1
+	Ronda 8:
+		random -> 1
+		ojoporojo -> 0
+	Ronda 9:
+		random -> 1
+		ojoporojo -> 1
+	>> Res :
+		random -> 14
+		ojoporojo -> 14
+
+	|| random vs cooperativo ||
+	Ronda 0:
+		random -> 0
+		cooperativo -> 1
+	Ronda 1:
+		random -> 1
+		cooperativo -> 1
+	Ronda 2:
+		random -> 0
+		cooperativo -> 1
+	Ronda 3:
+		random -> 1
+		cooperativo -> 1
+	Ronda 4:
+		random -> 0
+		cooperativo -> 1
+	Ronda 5:
+		random -> 1
+		cooperativo -> 1
+	Ronda 6:
+		random -> 0
+		cooperativo -> 1
+	Ronda 7:
+		random -> 1
+		cooperativo -> 1
+	Ronda 8:
+		random -> 0
+		cooperativo -> 1
+	Ronda 9:
+		random -> 1
+		cooperativo -> 1
+	>> Res :
+		random -> 20
+		cooperativo -> 5
+
+	|| random vs nocooperativo ||
+	Ronda 0:
+		random -> 0
+		nocooperativo -> 0
+	Ronda 1:
+		random -> 1
+		nocooperativo -> 0
+	Ronda 2:
+		random -> 0
+		nocooperativo -> 0
+	Ronda 3:
+		random -> 1
+		nocooperativo -> 0
+	Ronda 4:
+		random -> 1
+		nocooperativo -> 0
+	Ronda 5:
+		random -> 0
+		nocooperativo -> 0
+	Ronda 6:
+		random -> 0
+		nocooperativo -> 0
+	Ronda 7:
+		random -> 1
+		nocooperativo -> 0
+	Ronda 8:
+		random -> 1
+		nocooperativo -> 0
+	Ronda 9:
+		random -> 1
+		nocooperativo -> 0
+	>> Res :
+		random -> 8
+		nocooperativo -> 26
+
+	|| ojoporojo vs cooperativo ||
+	Ronda 0:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 1:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 2:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 3:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 4:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 5:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 6:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 7:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 8:
+		ojoporojo -> 1
+		cooperativo -> 1
+	Ronda 9:
+		ojoporojo -> 1
+		cooperativo -> 1
+	>> Res :
+		ojoporojo -> 10
+		cooperativo -> 10
+
+	|| ojoporojo vs nocooperativo ||
+	Ronda 0:
+		ojoporojo -> 1
+		nocooperativo -> 0
+	Ronda 1:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 2:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 3:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 4:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 5:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 6:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 7:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 8:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	Ronda 9:
+		ojoporojo -> 0
+		nocooperativo -> 0
+	>> Res :
+		ojoporojo -> 18
+		nocooperativo -> 21
+
+	|| cooperativo vs nocooperativo ||
+	Ronda 0:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 1:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 2:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 3:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 4:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 5:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 6:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 7:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 8:
+		cooperativo -> 1
+		nocooperativo -> 0
+	Ronda 9:
+		cooperativo -> 1
+		nocooperativo -> 0
+	>> Res :
+		cooperativo -> 0
+		nocooperativo -> 30
+
+>> RESULTADOS:
+	random	42
+	ojoporojo	42
+	cooperativo	15
+	nocooperativo	77
+FIN
+Agent finished
