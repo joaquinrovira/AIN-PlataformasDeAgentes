@@ -1,0 +1,1 @@
+java -cp lib\jade.jar;build\classes jade.Boot -gui -agents TournamentManager:torneo.TournamentManager;coop:torneo.Cooperativo;nocoop:torneo.NoCooperativo;oxo:torneo.OjoPorOjo;rand:torneo.Random

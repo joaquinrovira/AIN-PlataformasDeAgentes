@@ -1,1 +1,6 @@
 ENTREGABLE/
+JADE_Examples/
+TXT
+JADE/*
+!JADE/src
+!JADE/torneo.bat
