@@ -1,6 +1,12 @@
+
+# LaTeX stuff
 ENTREGABLE/
-JADE_Examples/
+
+# Other
+.gitignore
 TXT
+
+# Jade Non-Source Code Stuff
 JADE/*
 !JADE/src
 !JADE/torneo.bat
