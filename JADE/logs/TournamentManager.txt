@@ -1,0 +1,296 @@
+STARTED
+Esperando mensaje...
+Recibido!
+Registrado[0] nocoop
+Esperando mensaje...
+Recibido!
+Registrado[1] coop
+Esperando mensaje...
+Recibido!
+Registrado[2] oxo
+Esperando mensaje...
+Recibido!
+Registrado[3] rand
+Todos los agentes a la espera, comenzando torneo
+
+	|| nocoop vs coop ||
+
+	Ronda 0:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 1:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 2:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 3:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 4:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 5:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 6:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 7:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 8:
+		nocoop -> 0
+		coop -> 1
+
+	Ronda 9:
+		nocoop -> 0
+		coop -> 1
+
+	Res :
+		nocoop -> 30
+		coop -> 0
+
+	|| nocoop vs oxo ||
+
+	Ronda 0:
+		nocoop -> 0
+		oxo -> 1
+
+	Ronda 1:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 2:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 3:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 4:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 5:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 6:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 7:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 8:
+		nocoop -> 0
+		oxo -> 0
+
+	Ronda 9:
+		nocoop -> 0
+		oxo -> 0
+
+	Res :
+		nocoop -> 12
+		oxo -> 9
+
+	|| nocoop vs rand ||
+
+	Ronda 0:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 1:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 2:
+		nocoop -> 0
+		rand -> 1
+
+	Ronda 3:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 4:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 5:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 6:
+		nocoop -> 0
+		rand -> 1
+
+	Ronda 7:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 8:
+		nocoop -> 0
+		rand -> 0
+
+	Ronda 9:
+		nocoop -> 0
+		rand -> 1
+
+	Res :
+		nocoop -> 16
+		rand -> 7
+
+	|| coop vs oxo ||
+
+	Ronda 0:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 1:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 2:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 3:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 4:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 5:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 6:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 7:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 8:
+		coop -> 1
+		oxo -> 1
+
+	Ronda 9:
+		coop -> 1
+		oxo -> 1
+
+	Res :
+		coop -> 20
+		oxo -> 20
+
+	|| coop vs rand ||
+
+	Ronda 0:
+		coop -> 1
+		rand -> 0
+
+	Ronda 1:
+		coop -> 1
+		rand -> 0
+
+	Ronda 2:
+		coop -> 1
+		rand -> 1
+
+	Ronda 3:
+		coop -> 1
+		rand -> 1
+
+	Ronda 4:
+		coop -> 1
+		rand -> 0
+
+	Ronda 5:
+		coop -> 1
+		rand -> 0
+
+	Ronda 6:
+		coop -> 1
+		rand -> 1
+
+	Ronda 7:
+		coop -> 1
+		rand -> 0
+
+	Ronda 8:
+		coop -> 1
+		rand -> 0
+
+	Ronda 9:
+		coop -> 1
+		rand -> 0
+
+	Res :
+		coop -> 6
+		rand -> 27
+
+	|| oxo vs rand ||
+
+	Ronda 0:
+		oxo -> 1
+		rand -> 1
+
+	Ronda 1:
+		oxo -> 1
+		rand -> 0
+
+	Ronda 2:
+		oxo -> 0
+		rand -> 0
+
+	Ronda 3:
+		oxo -> 0
+		rand -> 1
+
+	Ronda 4:
+		oxo -> 1
+		rand -> 0
+
+	Ronda 5:
+		oxo -> 0
+		rand -> 1
+
+	Ronda 6:
+		oxo -> 1
+		rand -> 1
+
+	Ronda 7:
+		oxo -> 1
+		rand -> 0
+
+	Ronda 8:
+		oxo -> 0
+		rand -> 1
+
+	Ronda 9:
+		oxo -> 1
+		rand -> 1
+
+	Res :
+		oxo -> 16
+		rand -> 16
+RESULTADOS:
+	nocoop	58
+	coop	26
+	oxo	45
+	rand	50
+FSM behaviour completed.

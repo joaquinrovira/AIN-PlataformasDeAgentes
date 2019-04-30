@@ -10,6 +10,10 @@ import jade.core.Agent;
 import jade.core.behaviours.FSMBehaviour;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -18,6 +22,7 @@ import jade.lang.acl.ACLMessage;
 public class Agente extends Agent {
 
     Strategy s;
+    private FileWriter fw;
     private final String INICIO = "INICIO",
             CONTROL = "CONTROL",
             FIN = "FIN";
@@ -30,11 +35,21 @@ public class Agente extends Agent {
     }
 
     public void setup() {
+        try {
+            fw = new FileWriter(getLocalName() + ".txt");
+        } catch (IOException e) {
+            System.out.println(e);
+        }
         print("STARTED");
 
         // Definir la Maquina de Estados Finitos
         FSMBehaviour fsm = new FSMBehaviour(this) {
             public int onEnd() {
+                try {
+                    fw.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(TournamentManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
                 doDelete();
                 return super.onEnd();
             }
@@ -70,6 +85,7 @@ public class Agente extends Agent {
 
         public void action() {
             msg = blockingReceive();
+            print(">> " + msg.getContent());
             if (msg.getContent().equals("STOP")) {
                 nextState = 1;
                 return;
@@ -94,6 +110,11 @@ public class Agente extends Agent {
     }
 
     private void print(String s) {
-        System.out.println(getLocalName() + " >> " + s);
+        // System.out.println(getLocalName() + " >> " + s);
+        try {
+            fw.write(s + "\n");
+        } catch (IOException ex) {
+            Logger.getLogger(TournamentManager.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

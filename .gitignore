@@ -5,6 +5,4 @@ ENTREGABLE/
 TXT
 
 # Jade Non-Source Code Stuff
-JADE/*
-!JADE/src
-!JADE/torneo.bat
+JADE_Proj/
