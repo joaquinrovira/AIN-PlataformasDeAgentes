@@ -110,7 +110,6 @@ public class Agente extends Agent {
     }
 
     private void print(String s) {
-        // System.out.println(getLocalName() + " >> " + s);
         try {
             fw.write(s + "\n");
         } catch (IOException ex) {
